@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@200;300&family=Ubuntu&display=swap');
+
+.titulo {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 35px;
+}
+  
+.blocos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blocos img {
+  width: 300px;
+  height: 400px;
+  margin-left: 13%;
+}
+
+.bloco {
+    margin-top: 30px;
+    font-family: 'Lato', sans-serif;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    width: 400px;  
+}
+
+.bloco h3 {
+    font-size: 20px;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+  
+.bloco p {
+    font-size: 17px;
+    margin-top: 6px;
+    color: white;
+}
+  

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@200;300&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    background-color: black;
+}
+
+.body {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 100px;
+    color: rgb(145, 14, 9);
+    letter-spacing: 5px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+div button{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+}
